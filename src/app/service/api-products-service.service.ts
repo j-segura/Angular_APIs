@@ -13,9 +13,7 @@ export class ApiProductsServiceService {
 
   public getProducts() : Observable<any> {
 
-    return this.http.get(this.urlProducts, {
-      
-    });
+    return this.http.get(this.urlProducts);
 
   }
 

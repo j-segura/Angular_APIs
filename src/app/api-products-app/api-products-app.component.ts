@@ -23,7 +23,6 @@ export class ApiProductsAppComponent implements OnInit {
     this._serviceProducts.getProducts().subscribe(data => {
 
       this.products = data;
-      console.log(this.products);
 
     })
 

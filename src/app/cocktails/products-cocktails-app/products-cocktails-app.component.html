@@ -1,0 +1,14 @@
+<nav-app></nav-app>
+<header>
+    <h1>Our Principal Products</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aperiam asperiores</p>
+</header>
+<div class="cocktails">
+    <div class="card" *ngFor="let cocktail of cocktails">
+        <div class="img">
+            <img src="{{ cocktail.strDrinkThumb }}" alt="">
+        </div>
+        <p>{{ cocktail.strDrink }}</p>
+    </div>
+</div>
+<footer-app></footer-app>
